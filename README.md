@@ -1,9 +1,7 @@
 # BoookByte
-
-![Project Logo](https://drive.google.com/file/d/1mhMY1QWfzLzmvWdbp3sZDXRg6vXxKrmF/view?usp=sharing)  
-
+![Logo]()
 ## 🚀 About the Project
-This project implements a **Digital Library** for modern web applications using **React,Bootstrap,HTML** and custom **CSS**. It features a clean and minimalist UI, ideal for web applications requiring simplicity and focus.
+This project implements a **Digital Library** for modern web applications using **React,Bootstrap,HTML** and custom **CSS**. It features a clean and minimalist UI, ideal for web applications requiring simplicity and focus.Any user can read book onlin efore free without any hidden charges.
 
 ---
 
