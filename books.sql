@@ -1,4 +1,16 @@
 /*Table Creation*/
+CREATE TABLE e_book (
+  book_id TEXT PRIMARY KEY,
+  book_title TEXT,
+  author TEXT,
+  year INT8,
+  description TEXT,
+  url TEXT,
+  img_url TEXT,
+  tag TEXT
+);
+
+
 /*Value insertion*/
 insert into e_book
 values
@@ -545,6 +557,54 @@ values
  'The Intelligent Investor by Benjamin Graham is a foundational book on value investing, first published in 1949. It teaches investors how to approach the stock market with a long-term, disciplined mindset, focusing on strategies to minimize risk and maximize returns. Graham emphasizes the importance of value investing, where investors buy undervalued stocks with strong fundamentals, and he introduces key concepts like margin of safety and Mr. Market.',
  'http://dspace.vnbrims.org:13000/jspui/bitstream/123456789/1732/1/The_intelligent_investor%20(1).pdf',
  'https://149347908.v2.pressablecdn.com/wp-content/uploads/2019/01/the-intelligent-investor.jpg',
+ 'finance'
+);
+
+insert into e_book
+values
+(41,
+ 'The Richest Man in Babylon',
+ ' George S. Clason',
+ 1926,
+ 'The Richest Man in Babylon is a 1926 book by George S. Clason that dispenses financial advice through a collection of parables set 4,097 years earlier, in ancient Babylon. The book remains in print almost a century after the parables were originally published, and is regarded as a classic of personal financial advice.',
+ 'https://thediamondsmine.com/files/Ebooks/Clason-RichestManInBabylon.pdf',
+ 'https://i0.wp.com/pageaters.com/wp-content/uploads/2024/01/the-richest-man-in-babylon-tkCfvIJeKR-1652119439340.jpg',
+ 'finance'
+);
+
+insert into e_book
+values
+(42,
+ 'Principles life and work',
+ 'Ray Dalio',
+ 2017,
+ 'According to Dalio, principles are the fundamental truths that determine how you behave. They reflect your inner character and individual values. People who align in principles get along with each other, while people who dont have constant conflicts and misunderstandings',
+ 'https://uploads-ssl.webflow.com/5dfc6b53305f515787db819a/5e035622ed2a277eb557c13a_Principles%20-%20Dalio%2C%20Ray.pdf',
+ 'https://www.principles.com/assets/book-cover-tall-principles-56e834304a4509f7dd17798fb044702d6a3611c43e4df647a4b39920227cc901.png',
+ 'finance'
+);
+
+insert into e_book
+values
+(43,
+ 'The Total Money Makeover',
+ ' Dave Ramsey',
+ 2003,
+ 'The book outlines a proven plan for getting out of debt, building an emergency fund, and investing for the future. Ramseys approach focuses on discipline and the "debt snowball" method—paying off debts from smallest to largest to build momentum. Its a practical, no-excuses guide to transforming your financial life, offering simple strategies for budgeting, saving, and building wealth over time.',
+ 'https://finance.uonbi.ac.ke/sites/finance.uonbi.ac.ke/files/The%20Total%20Money%20Makeover%20-%20Dave%20Ramsey.pdf',
+ 'https://m.media-amazon.com/images/I/81eCiKyn8IL.jpg',
+ 'finance'
+);
+
+insert into e_book
+values
+(44,
+ 'The 4-Hour Workweek',
+ 'Timothy Ferriss',
+ 2007,
+ 'Ferriss introduces the concept of the "New Rich"—those who design their lives around what they value most, using tools like remote work, delegation, and creating passive income streams. The book encourages readers to focus on efficiency, eliminate unnecessary tasks, and embrace a lifestyle of travel, leisure, and entrepreneurship, all while working fewer hours.',
+ 'http://dspace.vnbrims.org:13000/jspui/bitstream/123456789/4910/1/The%204-Hour%20Workweek%2C%20Expanded%20and%20Updated%20Expanded%20and%20Updated%2C%20With%20Over%20100%20New%20Pages%20of%20Cutting-Edge%20Content..pdf',
+ 'https://m.media-amazon.com/images/I/6142S0D-PiL._AC_UF1000,1000_QL80_.jpg',
  'finance'
 );
 
